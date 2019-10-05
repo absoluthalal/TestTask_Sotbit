@@ -3,6 +3,58 @@
 }
 
 
+.top-header > div {
+    display: inline-block;
+    width: 23%;
+}
+
+.contacts ul, .time ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.contacts ul:before{
+    content: "";
+    background: url(https://sun9-40.userapi.com/c855320/v855320106/10de01/zkzeT25_S3w.jpg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    left: -25px;
+    top: 25px;
+    overflow: hidden;
+}
+
+.contacts ul:after{
+    content: "";
+    background: url(https://sun9-55.userapi.com/c855320/v855320720/110ee7/j7vbEQ46r18.jpg);
+    height: 5px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    right: -137px;
+    top: -32px;
+    overflow: hidden;
+}
+
+
+.contacts  li, .time  li {
+    text-align: left;
+}
+
+.logo > div, .cart > div{
+    display: inline-block;
+}
+
+.cart {
+    text-align: right;
+}
+
 
 
 
